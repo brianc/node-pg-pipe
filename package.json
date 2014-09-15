@@ -1,0 +1,29 @@
+{
+  "name": "pg-pipe",
+  "version": "0.0.0",
+  "description": "Pipe one table to another very efficiently",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianc/node-pg-pipe.git"
+  },
+  "keywords": [
+    "Postgres",
+    "copy",
+    "pg"
+  ],
+  "author": "Brian M. Carlson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianc/node-pg-pipe/issues"
+  },
+  "homepage": "https://github.com/brianc/node-pg-pipe",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "okay": "^0.3.0",
+    "pg-native": "^0.5.2"
+  }
+}
