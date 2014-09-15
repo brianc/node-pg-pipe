@@ -1,5 +1,7 @@
 # pg-pipe
 
+[![Build Status](https://travis-ci.org/brianc/node-pg-pipe.svg?branch=master)](https://travis-ci.org/brianc/node-pg-pipe)
+
 Given two connected [pg-native](https://github.com/brianc/node-pg-native) clients, use a very efficient row by row copy with libpq to move data between them.
 
 ### install
