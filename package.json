@@ -1,6 +1,6 @@
 {
   "name": "pg-pipe",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pipe one table to another very efficiently",
   "main": "index.js",
   "scripts": {
