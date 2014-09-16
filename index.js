@@ -93,7 +93,10 @@ var pipe = module.exports = function(from, to, cb) {
     readBuffer(from.pq, function(err, buff) {
       if(err) return cb(err);
       if(!buff) return end(to.pq, cb);
-      writeBuffer(to.pq, buff, loop);
+      writeBuffer(to.pq, buff, function(err) {
+        if(err) return cb(err);
+        loop();
+      });
     });
   };
   loop();
